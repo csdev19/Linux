@@ -1,0 +1,24 @@
+pregunta 1 
+
+cd .. 
+cd ..
+cd temp
+touch miprueba
+
+pregunta 2
+
+vim miprueba
+i 
+Escribir : "peru rumbo al gsoc 2020"
+esc + yy
+esc + 30 p 
+:wq
+
+
+pregunta 3 
+
+head -25 miprueba | tail -10 
+
+pregunta 4
+
+find -mtime -7 -size -300M
